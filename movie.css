@@ -1,0 +1,62 @@
+body {
+    /* background-image: url("mo.jpg"); */
+    background-color: #cccc;
+
+
+}
+
+nav {
+    /*border: 1px solid black;*/
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+#gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 350px;
+    height: 400px
+}
+
+section{
+    margin: 20px;
+    height: 500px;
+    width: 350px;
+    /* border: 1px solid black; */
+}
+
+input[type=text] {
+    float: right;
+    padding: 6px;
+    width: 500px;
+    border: 1px solid black;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+
+}
+
+#btn{
+    float: right;
+    padding: 6px;
+    width: 70px;
+    border: 1px thin black;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(48, 48, 197);
+}
